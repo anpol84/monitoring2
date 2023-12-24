@@ -17,7 +17,6 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 1234
       SERVER_PORT: 80
-      SPRING_LIQUIBASE_ENABLED: true
       SPRING_LIQUIBASE_CHANGELOG: classpath:db/changelog/db.changelog-master.xml
     depends_on:
       - mysql
